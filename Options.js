@@ -1,5 +1,5 @@
-const BrowserFactory = require("./BrowserFactory");
-const CacheStatics = require("./CacheComponent");
+const BrowserFactory = require("./lib/BrowserFactory");
+const CacheStatics = require("./lib/CacheComponent");
 
 class Options{
 

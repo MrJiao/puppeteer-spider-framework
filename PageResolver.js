@@ -1,4 +1,4 @@
-const urlMatcher = require("./UrlMatcher");
+const urlMatcher = require("./lib/UrlMatcher");
 
 class PageResolver {
     page;
