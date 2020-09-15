@@ -7,12 +7,16 @@
   },
   "keywords": ["puppeteer","spider"],
   "author": "jackson",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "ali-mysql-client": "^1.0.4",
     "escape-string-regexp": "^4.0.0",
     "md5-node": "^1.0.1",
     "puppeteer": "^2.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrJiao/puppeteer-spider-framework"
   },
   "devDependencies": {
 
