@@ -16,6 +16,10 @@ puppeteer爬取数据时频繁请求一些不会变的资源,带来一定的网�
 
 ## 用法
 
+1. 通过 Options 配置全局信息
+2. 写一个Resolver继承PageResolver
+3. 在Resolver内部通过this.config() 配置单个resolver相关信息
+
 ```javascript
 'use strict';
 const PageResolver = require('puppeteer-spider-framework/PageResolver');
@@ -55,3 +59,10 @@ class TestResolver extends PageResolver {
 })();
 ```
 
+
+
+## 期望标准写法
+
+一个页面一个Resolver, Resolver里面可以设置对这个页面的缓存和各种请求响应的拦截来达到获取数据.Resovler里提供对这个页面的所有操作做成function.
+
+多个Resolver放到一个Task中,Task中来调用resolver提供的function来达到多个页面根据逻辑进行跳转和爬取数据.
