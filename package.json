@@ -1,0 +1,20 @@
+{
+  "name": "puppeteer-spider-framework",
+  "version": "1.0.0",
+  "description": "基于puppeteer爬虫框架，增加本地缓存功能",
+  "main": "index.js",
+  "scripts": {
+  },
+  "keywords": ["puppeteer","spider"],
+  "author": "jackson",
+  "license": "ISC",
+  "dependencies": {
+    "ali-mysql-client": "^1.0.4",
+    "escape-string-regexp": "^4.0.0",
+    "md5-node": "^1.0.1",
+    "puppeteer": "^2.1.1"
+  },
+  "devDependencies": {
+
+  }
+}
