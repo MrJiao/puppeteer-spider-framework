@@ -1,6 +1,6 @@
 {
   "name": "puppeteer-spider-framework",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "基于puppeteer爬虫框架，增加本地缓存功能",
   "main": "index.js",
   "scripts": {
